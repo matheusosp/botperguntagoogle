@@ -57,6 +57,6 @@ class Perguntagoogle:
             sg.popup(conteudo)   
             bot = Perguntagoogle()
             bot.Start()               
-if _name_ == '_main_':
+if __name__ == '_main_':
     bot = Perguntagoogle()
     bot.Start()
